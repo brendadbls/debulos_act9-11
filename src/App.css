@@ -1,0 +1,125 @@
+
+/* App.css */
+
+
+.login-form {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+.form-group input::placeholder {
+  color: #000000;
+  font-size: 0.8rem;
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+
+
+.container {
+  background-size: cover;
+  background-position: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8; /* Add opacity to make the container transparent */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 27vw;
+  backdrop-filter: blur(100.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  color: rgb(45, 47, 187);
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  box-shadow: 0 0 10px rgba(4, 4, 3, 0.2);
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 2px solid #287ec4;
+  border: none;
+  background: rgba(0, 0, 0, 0.15);
+  width: 80%;
+  height: 2rem;
+  outline: none;
+  font-size: 0.8rem;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  &:focus {
+    display: inline-block;
+    box-shadow: rgb(74, 127, 197);
+    backdrop-filter: blur(12rem);
+    
+  
+  }
+ 
+  
+}
+button[type='submit'] {
+  font-family: Arial, sans-serif;
+  background-color: rgb(74, 127, 197);
+  width: 120%;
+  height: 2rem;
+  border:  rgb(74, 127, 197); /* Add a white border */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto; /* Center the button horizontally */
+  display: block; /* Make the button a block element to center it vertically */
+  text-transform: uppercase;
+  letter-spacing: 0.4 rem;
+}
+button[type='submit']:hover {
+  background-color: rgb(16, 48, 97);
+}
+.form-footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form-footer p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: none;
+}
+
+.form-footer a {
+  color: #202aac;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #202aac;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #1c1c8c;
+}
+
